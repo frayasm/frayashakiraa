@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="biodataku.html">About me</a>
+  <a href="music taste.html">Music taste</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Portfolio
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="porto.html">Gambar Digital</a>
+    <a href="graphic design.html">Graphic Design & 3D Modelling</a>
+    <a href="kumpulan web.html">Kumpulan Web</a>
+  </div>
+  </div> 
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>
+
+<style>
+a {
+color : black;
+text-decoration : none;
+font-family : sans-serif;
+letter-spacing: 1px;}
+
+</style>
+<head>
+<title> frame dengan html dan css </title>
+<link rel="stylesheet" type= "text/css" href="style.css">
+</head>
+<body>
+<div class="content"></div>
+    <header>
+        <h1 class="judul">✦ fray's web ✦</h1>
+	</header>
+<div class="content"></div>
+    <header>
+        <h5 class="judul"><h5 style="color:#444; font-family: sans-serif; font-size: 19px"><center>My name is Fraya Shakira Maritza. I'm currently 17 years old, born in Jakarta, Indonesia.
+		Looking for new challenges in my life to improve my skills and myself. With my knowledge and ability, I'm prepared to do my best. Thank you for visiting my website!!<center></h5>
+    </header>
+
+<br><br><br><br><br>
+<br><br><br><br>
+<center><p>Find me on :</p><a href="https://instagram.com/frayasm?igshid=NDk5N2NlZjQ=" class="fa fa-instagram">frayasm</a>
+<a href="https://twitter.com/frayasm?t=NQGcroSiaZQm_PdVHrRG4Q&s=08" class="fa fa-twitter">frayasm</a></center>
+
+  
+
+	
+
+</head>
+</html>
